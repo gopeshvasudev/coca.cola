@@ -1,0 +1,227 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: gilroy;
+    color: #fff;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+}
+
+.page {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.nav {
+    height: 10%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+#nav-left h1 {
+    font-size: 15px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+#nav-left i {
+    margin-left: 30px;
+    margin-right: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#nav-center {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    left: 15.5%;
+    width: 900px;
+}
+
+#nav-center a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 550;
+}
+
+#nav-center a:hover {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    text-decoration: wavy;
+}
+
+#nav-center>img {
+    width: 180px;
+}
+
+#nav-center .line {
+    width: 80px;
+    height: 1px;
+    background-color: red;
+}
+
+#nav-right {
+    display: flex;
+    align-items: center;
+}
+
+#nav-right i {
+    font-size: 20px;
+    margin-right: 50px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.content {
+    width: 100%;
+    height: 83.6%;
+    display: flex;
+    position: relative;
+}
+
+.content-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 38%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+}
+
+.content-left h1 {
+    margin-top: 60px;
+    font-size: 50px;
+    width: 340px;
+    margin-bottom: 20px;
+}
+
+.content-left h1 span {
+    color: red;
+    font-weight: 300;
+}
+
+.content-left h5 {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    width: 315px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    position: absolute;
+    top: 48%;
+    left: 16.5%;
+}
+
+.content-left button {
+    position: absolute;
+    top: 70%;
+    left: 15%;
+    padding: 12px 20px;
+    background-color: red;
+    border-radius: 50px;
+    font-weight: 550;
+    cursor: pointer;
+}
+
+.content-left button i {
+    margin-right: 5px;
+}
+
+.content-center {
+    position: relative;
+    width: 26%;
+    height: 100%;
+    background-color: #000;
+}
+
+.sub-center {
+    margin-top: 40px;
+    width: 100%;
+    height: 80%;
+    background-image: url(./assets/coca-cola-led-signage.jpg);
+    background-size: 1300px;
+    background-position: 40% 35%;
+    border-top-left-radius: 1000px;
+    border-top-right-radius: 1000px;
+    filter: blur(2px);
+}
+
+.content-center img {
+    position: absolute;
+    height: 515px;
+    top: 5px;
+    left: 30%;
+}
+
+.content-right {
+    width: 38%;
+    background-color: #000;
+    height: 100%;
+}
+
+
+.floating-name {
+    margin-top: 48%;
+    margin-left: 38%;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 50%;
+}
+
+.element {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.element h3 {
+    width: 100%;
+    font-size: 20px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.element h3 span {
+    font-weight: 500;
+    color: #eee9e9;
+    cursor: pointer;
+}
+
+#gg {
+    border: none;
+}
+
+.element p {
+    position: absolute;
+    top: 425px;
+    width: 250px;
+    font-size: 12px;
+    font-weight: 200;
+    color: #eee9e9;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
